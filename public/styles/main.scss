@@ -1,0 +1,118 @@
+body {
+  background: rgb(39, 43, 43);
+}
+
+#nameForm {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    padding: 1em;
+    border: 1px solid rgb(59,134,134);
+    border-radius: 1em;
+    background: rgb(96, 161, 132);
+    color: aliceblue;
+}
+
+#formround {
+  background: rgb(11,72,107);
+  color: aliceblue;
+  border-radius: 1em;
+  border: 1px solid rgb(59,134,134);
+  padding: 2em;
+  margin: 1em;
+}
+
+#playerOneName {
+  margin-top: 15%;
+}
+
+#playerTwoName {
+  margin-top: 1em;
+}
+
+#submitbutton, #submitbuttonRound, #submitbuttonRoundTwo {
+float: right;
+margin-top: -3em;
+border: 0;
+color: aliceblue;
+background: rgb(59,134,134);
+}
+
+#skipper {
+float: right;
+margin: auto;
+border: 0;
+color: aliceblue;
+background: rgb(59,134,134);
+}
+
+
+#playspace {
+  border: 1px solid rgb(59,134,134);
+  border-radius: 1em;
+  background: rgb(96, 161, 132);
+  color: aliceblue;
+  float: left;
+  width: 70%;
+  height: 400px;
+  padding: 1em;
+}
+
+#scores {
+  background: rgb(207,240,158);
+  color: rgb(11,72,107);
+  float: right;
+  width: 20;
+  border: 1px black solid;
+  padding: 1em;
+  border-radius: 20%;
+}
+
+#countdown {
+  margin-top: 1em;
+  background: rgb(207,240,158);
+  color: rgb(11,72,107);
+  float: right;
+  width: 20;
+  border: 1px black solid;
+  padding: 1em;
+  border-radius: 20%;
+}
+
+#roundkeeper {
+  background: rgb(59,134,134);
+  border: 1px solid rgb(96, 161, 132);
+  margin: 0 auto;
+  height: 4em;
+  margin-bottom: 2em;
+  width: 70%;
+  border-radius: 40%;
+}
+
+h1 {
+  color: aliceblue;
+    text-align: center;
+    font-family: 'femme_fatale_britneyregular';
+    font-size: 400%;
+}
+
+h2 {
+  margin: auto;
+  color: black;
+    text-align: center;
+    font-family: 'femme_fatale_britneyregular';
+    font-size: 400%;
+}
+
+@font-face {
+    font-family: 'femme_fatale_britneyregular';
+    src: url('femmefatalealbum-webfont.eot');
+    src: url('femmefatalealbum-webfont.eot?#iefix') format('embedded-opentype'),
+         url('femmefatalealbum-webfont.woff2') format('woff2'),
+         url('femmefatalealbum-webfont.woff') format('woff'),
+         url('femmefatalealbum-webfont.ttf') format('truetype'),
+         url('femmefatalealbum-webfont.svg#femme_fatale_britneyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
